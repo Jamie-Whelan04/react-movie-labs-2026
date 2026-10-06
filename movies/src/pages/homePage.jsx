@@ -54,11 +54,8 @@ const HomePage = (props) => {
                     />
 
                 </Grid>
-                <FilterCard
-                    onUserInput={handleChange}
-                    titleFilter={nameFilter}
-                    genreFilter={genreFilter}
-                />
+                
+                <MovieList movies={displayedMovies} />
 
             </Grid>
         </Grid>
